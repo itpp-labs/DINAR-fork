@@ -2,7 +2,7 @@ GITHUB_TOKEN=$1
 
 cat << EOF
 
-# Once per device make access token with "read:packages" access
+# Once per device make access token with "read:packages, repo" access
 # https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
 
     USERNAME=YOUR_USERNAME_HERE
@@ -50,7 +50,7 @@ if [ "$ARTIFACT" != "empty" ]; then
 
     # get artifact URL
     API_URL="https://api.github.com/repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts"
-    API_RESPONSE=\$(curl -s \$API_URL)
+    API_RESPONSE=\$(curl --netrc -s \$API_URL)
     ARTIFACT_URL=\$(echo \$API_RESPONSE | \
     jq --raw-output '.artifacts[] | select(.name == "new-deps") | .archive_download_url')
 
