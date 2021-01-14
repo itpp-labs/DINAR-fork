@@ -5,6 +5,7 @@
   merges:
     - oca master
     - oca refs/pull/38/head  # act_window
+    - oca refs/pull/50/head  # phantom_js
     #- oca refs/pull/12345/head
     - itpp-labs change-odoo-version-only
   target: oca master
