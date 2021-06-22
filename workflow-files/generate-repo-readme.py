@@ -53,6 +53,8 @@ def main(token, repository, branch):
         "[![help@itpp.dev](https://itpp.dev/images/infinity-readme.png)](mailto:help@itpp.dev)",
         "# [{}] {}".format(branch, title),
         "",
+        ":open_file_folder: Get a **.zip** file with all needed dependencies:",
+        "",
     ]
 
     lines_modules = []
@@ -65,6 +67,10 @@ def main(token, repository, branch):
     lines.append("\n<br/>".join(lines_modules))
 
     lines += [
+        "",
+        ":star: Star this repo if you **like** it!",
+        "",
+        ":heart: [Sponsor us](https://patreon.com/itpp) if you **love** it!",
         "",
         "Other Addons",
         "============",
