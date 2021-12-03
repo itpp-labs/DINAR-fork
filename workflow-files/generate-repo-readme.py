@@ -21,7 +21,7 @@ import yaml
 from github import Github
 from plumbum.cmd import cat
 
-BRANCHES = ["14.0", "13.0", "12.0", "11.0", "10.0", "9.0", "8.0"]
+BRANCHES = ["15.0", "14.0", "13.0", "12.0", "11.0", "10.0", "9.0", "8.0"]
 REPOS = {
     "pos-addons": {"extra_branches": ["7.0"]},
     "mail-addons": {},
