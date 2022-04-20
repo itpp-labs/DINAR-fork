@@ -8,7 +8,7 @@ branches:
 
 repos:
   #itpp-labs/misc-addons:
-  #itpp-labs/pos-addons:
+  itpp-labs/pos-addons:
   #itpp-labs/website-addons:
   #itpp-labs/mail-addons:
   itpp-labs/access-addons:
