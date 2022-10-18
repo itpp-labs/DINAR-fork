@@ -70,8 +70,6 @@ def main(token, repository, branch):
         "",
         ":star: Star this repo if you **like** it!",
         "",
-        ":heart: [Sponsor us](https://patreon.com/itpp) if you **love** it!",
-        "",
         "Other Addons",
         "============",
         "",
