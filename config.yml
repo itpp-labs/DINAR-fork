@@ -5,6 +5,7 @@ branches:
   - "13.0"
   - "14.0"
   - "15.0"
+  - "16.0"
 
 repos:
   #itpp-labs/misc-addons:
